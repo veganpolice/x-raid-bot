@@ -1,0 +1,18 @@
+{
+  "name": "twitter-auto-like",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "netlify build"
+  },
+  "dependencies": {
+    "twitter-api-v2": "^1.15.1",
+    "dotenv": "^16.3.1",
+    "update-notifier": "^6.0.2"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.1"
+  }
+}
